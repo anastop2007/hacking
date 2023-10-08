@@ -1,0 +1,922 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.book img{
+    height: 500px;
+    width: 75%;
+    margin-top: 100px;
+    border-radius: 4%;
+    border: 2px solid white;
+    transition: 0.8s;
+}
+
+.book{
+   margin-left: 90px;
+}
+
+.book img:hover{
+    transform: scale(1.1)
+}
+
+body{
+    background: rgb(128, 128, 128);
+}
+
+/* small Mobil*/
+
+@media (min-width:297px){
+    .book img{
+        height: 350px;
+        width: 90%;
+    }
+}
+
+.of-hacking h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.of-hacking p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.hacker h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.hacker p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.is-hacker h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.is-hacker p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.Types-hacker h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.Types-hacker p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.w h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.w p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+} 
+
+.b h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.b p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+} 
+
+.g h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.g p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+} 
+
+.s h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.s p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+} 
+
+.h h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.h p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+} 
+
+.l h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.l p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+} 
+
+.p h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.p p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+} 
+
+.ha h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.ha p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+
+.pr h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.pr p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+
+.im h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.im p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.ha h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.ha p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.th h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.th p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.ra h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.ra p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.at h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.at p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.vi h2{ 
+    color:rgb(4, 0, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.vi p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.ho h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.ho p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.pp p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+
+/* small Mobil*/
+
+@media (max-width:400px){
+    
+.of-hacking h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.of-hacking p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.hacker h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.hacker p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.is-hacker h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.is-hacker p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.Types-hacker h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.Types-hacker p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.w h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.w p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.b h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.b p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.g h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.g p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.s h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.s p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.h h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.h p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.l h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.l p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.p h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.p p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.ha h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.ha p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.pr h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.pr p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.im h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.im p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.th h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.th p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.ra h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.ra p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.at h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.at p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.vi h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.vi p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.ho h2{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.ho p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.pp p{
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+
+
+}
+
+/* small Mobil*/
+
+@media (max-width:800px){
+    .of-hacking h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .of-hacking p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .hacker h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .hacker p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .is-hacker h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .is-hacker p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .Types-hacker h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .Types-hacker p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .w h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .w p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .b h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .b p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .g h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .g p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .s h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .s p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .h h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .h p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .l h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .l p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .p h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .p p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .ha h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .ha p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .pr h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .pr p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .im h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .im p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .th h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .th p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .ra h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .ra p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .at h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .at p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .vi h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .vi p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .ho h2{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .ho p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .pp p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+
+}
+
+/* small screen*/
+
+@media (max-width:1000px){
+    .of-hacking h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .of-hacking p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .hacker h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .hacker p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .is-hacker h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .is-hacker p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .Types-hacker h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .Types-hacker p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .w h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .w p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .b h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .b p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .g h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .g p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .s h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .s p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .h h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .h p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .l h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .l p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .p h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .p p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .ha h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .ha p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .pr h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .pr p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .im h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .im p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .th h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .th p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .ra h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .ra p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .at h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .at p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .vi h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .vi p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .ho h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    
+    .ho p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .pp p{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+}
